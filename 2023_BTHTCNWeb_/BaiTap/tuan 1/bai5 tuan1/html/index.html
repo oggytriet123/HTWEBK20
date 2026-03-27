@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Movie Day</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table{
+            border: 1px solid black;
+            width: 80%;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgb(0,0,0,0.1);
+            max-width: 600px;
+        }
+        body{
+            font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #f4f4f4;
+        }
+        caption{
+           font-size: 1.2em; 
+           font-weight: bold;
+        }
+    th,td{
+        border: 2px soild black;
+        padding: 10px;
+        text-align: center;
+    }
+    thead th {
+    background-color: #e9e9e9;
+    font-weight: bold;
+    }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Classic Movie Day</caption>
+        <thead>
+            <tr>
+              
+                <th></th> 
+                <th>5 pm</th>
+                <th>7 pm</th>
+                <th>9 pm</th>
+                <th>11 pm</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Screen one</th>
+                <td>Star Wars</td>
+                <td>Empire Strikes Back</td>
+                <td>Return of the Jedi</td>
+                <td>The Exorcist</td>
+            </tr>
+            <tr>
+                <th>Screen two</th>
+                
+                <td>Dances with Wolves</td>
+                <td colspan="2">Gone With the Wind</td>
+                <td></td> 
+            </tr>
+            <tr>
+                <th>Screen three</th>
+                <td colspan="2">2001: A Space Odyssey</td>
+                <td>The Conversation</td>
+                <td>5 Easy Pieces</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,193 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    padding: 0;
+}
+.wapper {
+    width: 960px;
+    height: 1000px;
+    margin: auto;
+    
+}
+header {
+    width: 960px;
+    height: 120px;
+}
+nav {
+    width: 960px;
+    height: 50px;
+    line-height: 50px;
+    background-color: green;
+}
+.content {
+    width: 960px;
+    height: 600px;
+    clear: both;
+    background-color: rgb(0, 90, 60);
+    
+}
+section {
+    width: 55%;
+    height: 600px;
+    background-color: rgb(142, 228, 228);
+    float: left;
+}
+aside {
+    width: 45%;
+    height: 600px;
+    float: left;
+    
+}
+footer {
+    width: 960px;
+    height: 100px;
+    background-color: red;
+    clear: both;
+}
+header img {
+    height: 120px;
+    width: 960px;
+}
+
+.menu ul {
+    display: block;
+    float: left;
+    text-shadow: 2px 2px 4px;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px 2px;
+}
+.menu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: #006400;
+    padding: 0 20px;
+    border-radius: 5px;
+    line-height: 35px;
+    height: 35px;
+    
+}
+.tim-kiem {
+    float: right;
+}
+.tim-kiem button {
+    height: 25px;
+    cursor: pointer;
+}
+.tim-kiem input {
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 15px;
+}
+#gthieu {
+    font-weight: bolder;
+    color: brown;
+    padding-left: 10px;
+    font-size: 25px;
+}
+#gt {
+    border: 3px solid #ccc;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 15px;
+    padding: 15px;
+    margin: 20px;
+
+    font-style: italic;
+    line-height: 1.6;
+    text-align: justify;
+    font-weight: bolder;
+    
+}
+.tour-item {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.tour-img {
+    flex: 1;
+    padding-right: 10px;
+}
+.tour-img img {
+    width: 200px;
+    height: 140px;
+}
+.tour-info {
+    flex: 2;
+}
+.tour-info ul {
+    display: block;
+    padding: 0;
+}
+.tour-info ul li {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.tour-info h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-transform: none;
+}
+.right {
+    width: 80%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 40px auto;
+    padding-top: 10px;
+}
+.right h3 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #800000;
+}
+.right label {
+    width: 100px;
+    font-size: 15px;
+}
+
+aside {
+    border: 1px #000000;
+
+}
+aside h3 {
+    font-size: 25px;
+}
+.right table tr td {
+    padding-right: 30px;
+}
+.right table tr td label {
+    font-size: smaller;
+    float: left;
+}
+.right table {
+    width: 100%;
+}
+.right button {
+    margin-top: 15px;
+}
+.dat-tour{
+background:green;
+color: white;
+border-radius: 10px;
+}
+.huy-dat-tour {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.right button {
+    width: 80px;
+    height: 30px;
+}
+.right table input {
+    width: 100%;
+}

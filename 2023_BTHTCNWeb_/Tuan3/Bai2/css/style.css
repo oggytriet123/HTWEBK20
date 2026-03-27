@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    
+}
+header {
+    width: 960px;
+    height: 100px;
+    background-color: #29507B;
+}
+.content {
+    width: 960px;
+    display: table;
+    clear: both;
+}
+section {
+    width: 65%;
+    float: left;
+    padding-bottom: 20px;
+}
+aside {
+    width: 35%;
+    height: 400px;
+    float: left;
+    padding: 20px 10px;
+    background-color: #F8F8F8;
+    margin-top: 50px;
+    
+}
+footer {
+    width: 960px;
+    height: 60px;
+    background-color: #1D3352;
+    clear: both;
+}
+header img {
+    height: 80px;
+    float: left;
+    margin: 10px;
+}
+.left_logo h1 {
+    padding-top: 10px;
+    color: white;
+}
+.left_logo p {
+    color: white;
+    padding-top: 5px;
+}
+.right_logo ul {
+    display: block;
+    float: right;
+}
+.right_logo ul li {
+    display: inline-flex;
+    padding-right: 20px;
+    background-color: #7faad7;
+    text-align: center;
+    height: 20px;
+    padding: 0 20px;
+    margin: 0 5px;
+}
+.right_logo ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+.sreach_logo {
+    float: right;
+    
+    
+    top: 10px;
+}
+.sreach_logo button {
+    background-color: #29507B;
+    color: white;
+}
+section hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 15px;
+}
+section h3 {
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #b2b1b1;
+    font-size: 20px;
+}
+.section-1 {
+    width: 55%;
+    float: left;
+}
+.section-1 p {
+    color: #F9ACA9;
+    text-shadow: 2px 2px 4px;
+    margin: 10px;
+    letter-spacing: 1.2px;
+}
+.section-1 label {
+    color: #D2D2D2;
+}
+.section-1 table {
+    padding: 10px;
+}
+.section-1 table tr td {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.section-1 table tr td input {
+    height: 22px;
+}
+#ds {
+    height: 50px;
+    flex: 2;
+}
+.btn-sec {
+    margin: 10px 10px;  
+    justify-items: center;
+    text-align: center;
+    padding: 5px 10px;
+}
+.section-2 {
+    float: right;
+    width: 45%;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #767575;
+}
+#sec-2-2 {
+    margin-top: 40px;
+}
+#sec-2-3 {
+    margin-top: 10px;
+}
+aside img {
+    width: 100%;
+    margin: 10px;
+}
+aside h3 {
+    color: #A8A8A8;
+    padding: 10px;
+    font-size: 30px;
+    line-height: 20px;
+}
+aside hr {
+    border: 0;
+    border-top: 2px dotted #ccc;
+    padding: 10px;
+}
+#rm {
+    float: right;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: blue;
+}
+aside p {
+    padding: 10px;
+    letter-spacing: 1.6px;
+}
+footer {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    justify-items: center;
+}
+footer p {
+    padding: 10px 0;
+}
+

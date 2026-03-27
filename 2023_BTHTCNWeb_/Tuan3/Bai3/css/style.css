@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 960px;
+    height: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.h-1 {
+    width: 100%;
+    height: 95px;
+    background-color: #AD4C15;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    border: 0px;
+    border-bottom: 1px solid black;
+}
+.h-2 {
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/line.png);
+    background-repeat: repeat-x;
+    background-position: left;
+    background-size: auto;
+}
+.content {
+    width: 100%;
+    height: 600px;
+}
+section {
+    width: 65%;
+    height: 600px;
+    float: left;
+}
+aside {
+    width: 35%;
+    height: 600px;
+    
+    float: left;
+}
+footer {
+    width: 100%;
+    height: 80px;
+    clear: both;
+}
+.h-1 h1 {
+    color: #7E8207;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    letter-spacing: 6px;
+    text-shadow: -4px -4px 6px white;
+}
+nav ul {
+    display: block;
+}
+nav ul li {
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 10px ;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #C47E71;
+    font-size: larger;
+}
+section h3 {
+    color: #C2C068;
+    padding-top: 30px;
+    padding-left: 9px;
+    letter-spacing: 3px;
+    font-size: 22px;
+}
+section p {
+    color: #A28665;
+    padding: 20px;
+    letter-spacing: 1.6px;
+}
+section table tr td input {
+    border: none;
+    border-bottom: 1px solid black;
+    height: 50px;
+    width: 300px;
+}
+section table tr td  {
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+section button {
+    background-color: green;
+    color: white;
+    border: none;
+    margin-left: 20px;
+    padding: 5px;
+    height: 30px;
+}
+.info-link {
+    background-color: #FAEBD8;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 20px 20px 0 0;
+}
+.info-link h3 {
+    font-weight: bolder;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+.info-link ul li {
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+.more-info h3 {
+    padding: 20px;
+}
+.more-info img {
+    width: 120px;
+    height: 70px;
+    float:left;
+}
+.more-info p {
+    margin-left: 20px;
+    font-size: 20px;
+    letter-spacing: 1.8px;
+    margin-right: 10px;
+}
+footer {
+    border: 1px solid black;
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-size:  cover;
+}
+footer p {
+    font-size: 30px;
+    
+    margin-left: 70px;
+    margin-top: 30px;
+}

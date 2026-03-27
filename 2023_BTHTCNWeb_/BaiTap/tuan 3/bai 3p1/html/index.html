@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai 3 bootstrap</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-4.0.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <style>
+        .container{
+            width: 1000px;
+            height: 800px;
+            background-image: linear-gradient(#5FADEF, rgb(47, 47, 218));   
+            padding: 20px;
+            color: white;
+        }
+        
+        /* Navigation styling */
+        .nav-link{
+            color: white !important;
+            padding: 8px 15px !important;
+        }
+        
+        .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 3px;
+        }
+        
+        /* Header */
+        .header h1 {
+            float: right;
+            margin-top: -50px;
+            margin-right: 20px;
+            text-shadow: 2px 2px 2px white, -2px -2px 2px white;
+            font-size: 28px;
+            color: white;
+        }
+        
+        /* Form styling */
+        .content-section {
+            
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            color: black;
+        }
+        
+        .content-section h3 {
+            color: #000BDC;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        
+        .content-section p {
+            color: #333;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-control {
+            background-color: white;
+            border: 1px solid #ccc;
+        }
+        
+        .form-label {
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .btn-submit {
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        
+        .btn-reset {
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 4px;
+        }
+        
+        /* Right column */
+        .image-box {
+            text-align: center;
+        }
+        
+        .image-box img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        
+        .tieude {
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        .tieude h3 {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .tieude h4 {
+            font-style: italic;
+            font-weight: normal;
+        }
+        
+        /* Footer */
+        .footer {
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            font-size: 12px;
+            color: white;
+            text-align: center;
+        }
+        
+        /* Adjust layout for better spacing */
+        .main-content {
+            margin-top: 20px;
+        }
+        
+        /* Fix for form labels alignment */
+        .form-group.row .col-form-label {
+            text-align: right;
+            padding-top: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <div class="row">
+            <div class="col-12">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Header with Sky World -->
+        <div class="row header">
+            <div class="col-12">
+                <h1>Sky World</h1>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="row main-content">
+            <!-- Left Column - Form -->
+            <div class="col-md-8">
+                <div class="content-section">
+                    <h3>Registration information</h3>
+                    <p>
+                        Start your travel planning right now with our online tour registration form.<br>
+                        Just fill in a little about yourself and your group and one of our travel experts<br>
+                        will contact you to create the perfect tour package custom built for your group's needs.
+                    </p>
+                    
+                    <form>
+                        <!-- Title -->
+                        <div class="form-group row">
+                            <label class="col-md-2 col-form-label">Title</label>
+                            <div class="col-md-3">
+                                <select class="form-control">
+                                    <option>Mr</option>
+                                    <option>Mrs</option>
+                                    <option>Ms</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <!-- Full Name -->
+                        <div class="form-group row">
+                            <label class="col-md-2 col-form-label">Full Name *</label>
+                            <div class="col-md-8">
+                                <input type="text" class="form-control" required>
+                            </div>
+                        </div>
+                        
+                        <!-- Mailing Address -->
+                        <div class="form-group row">
+                            <label class="col-md-2 col-form-label">Mailing Address</label>
+                            <div class="col-md-8">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        
+                        <!-- City and Country in one row -->
+                        <div class="form-group row">
+                            <div class="col-md-6">
+                                <label class="form-label">City</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Country</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        
+                        <!-- Specific Questions -->
+                        <div class="form-group">
+                            <label class="form-label">Specific questions or requests about your tour</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        
+                        <!-- Buttons -->
+                        <div class="form-group">
+                            <button type="submit" class="btn-submit">Submit</button>
+                            <button type="reset" class="btn-reset">Reset</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Right Column - Image and Text -->
+            <div class="col-md-4">
+                <div class="image-box">
+                    <img src="../img/sky.png" alt="Sky World">
+                    <div class="tieude">
+                        <h3>You've arrived.</h3>
+                        <h4>Journeys as great as the destinations.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="row">
+            <div class="col-12 footer">
+                <p>© 2016 Sky World Tours. All rights reserved</p>
+                <p>Contact information: Student Name | Student ID | Testing date: 26 Sept 2016</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
